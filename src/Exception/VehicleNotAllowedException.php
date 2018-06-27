@@ -1,4 +1,5 @@
 <?php
+namespace Garage\Exception;
 
-class VehicleNotAllowedException extends Exception
+class VehicleNotAllowedException extends \Exception
 {}

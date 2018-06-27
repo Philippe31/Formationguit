@@ -1,6 +1,7 @@
 <?php
+namespace Garage\Exception;
 
-class ColorNotAvailableException extends Exception
+class ColorNotAvailableException extends \Exception
 {
 
 }

@@ -1,10 +1,14 @@
 <?php
+namespace Garage;
+
+use Garage\Exception\ColorInterface;
+
 class Moto implements ColorizableInterface, VehicleInterface//implémentation de l'interface pour dire que la classe respecte bien le contrat ColorizableInterface
 
 {
     private $color;
 
-    public function getColor(): ?ColorInterface
+    public function getColor(): ColorInterface
     {
         return $this->color;
     }

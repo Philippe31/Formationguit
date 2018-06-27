@@ -1,4 +1,8 @@
 <?php
+namespace Garage\Colors;
+
+use Garage\Exception\ColorAlreadyExistException;
+
 class ColorStock//catalogue de couleurs possibles
 
 {

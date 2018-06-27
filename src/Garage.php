@@ -1,4 +1,11 @@
 <?php
+namespace Garage;
+
+use Garage\Colors\ColorInterface;
+use Garage\Colors\ColorStock;
+use Garage\Exception\ColorNotAvailableException;
+use Garage\Exception\VehicleNotAllowedException;
+
 class Garage
 {
     private $colorStock;

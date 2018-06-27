@@ -1,4 +1,8 @@
 <?php
+namespace Garage;
+
+use Garage\Exception\ColorInterface;
+
 class Pen implements ColorizableInterface//implémentation de l'interface pour dire que la classe respecte bien le contrat ColorizableInterface
 
 {

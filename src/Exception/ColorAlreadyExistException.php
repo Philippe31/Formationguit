@@ -1,5 +1,7 @@
 <?php
-class ColorAlreadyExistException extends Exception
+namespace Garage\Exception;
+
+class ColorAlreadyExistException extends \Exception
 {
 
 }
