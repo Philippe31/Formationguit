@@ -1,0 +1,20 @@
+{
+    "name": "philippemistou/garage",
+    "description": "Librairie de gestion de garage",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Philippe",
+            "email": "philippe.mistou@sfr.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Garage\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^3.4"
+    }
+}
