@@ -36,7 +36,7 @@ class ColorStock//catalogue de couleurs possibles
     }
 
     //retourne la classe de l'objet selon le nom de la couleur (entrée en string et sortie en ColorInterface)
-    public function getColor(string $color): ?ColorInterface
+    public function getColor(string $color): ColorInterface
     {
         foreach ($this->colors as $colorObject) {
             //if($colorObject instanceof $color){
@@ -47,7 +47,7 @@ class ColorStock//catalogue de couleurs possibles
     }
 
     //recherche d'une couleur par nom sortie en ColorInterface ou null
-    public function searchColorByName($name): ?ColorInterface
+    public function searchColorByName($name): ColorInterface
     {
         foreach ($this->colors as $value) {
             if (strtolower($value->getName()) == strtolower($name)) {
@@ -58,7 +58,7 @@ class ColorStock//catalogue de couleurs possibles
     }
 
     //recherche d'une couleur par hexacode sortie en ColorInterface ou null
-    public function searchColorByHexaCode($hexacode): ?ColorInterface
+    public function searchColorByHexaCode($hexacode): ColorInterface
     {
         foreach ($this->colors as $value) {
             if ($value->getHexaCode() == $hexacode) {
